@@ -21,3 +21,15 @@ Uncaught TypeError: e._reverse is not a function
     at index.e4f79b4f.js:1:23
     at index.e4f79b4f.js:60:733
 ```
+
+I've added a rollup production config/script:
+
+1. Run `npm run prod-rollup`
+2. Browse to the app
+3. View the JS Console
+
+I see the following output:
+```
+Original text: Hello, world!
+Encrypted text: cf3d03aa471420463df71e253f147d70
+```
